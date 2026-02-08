@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Novel Idea Bookstore - Kingston's independent bookstore since 1988. Browse new fiction, non-fiction, local authors, and more at 156 Princess Street.">
+    <title>Novel Idea Bookstore | Kingston</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,700;1,300&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="top-bar">Open Mon-Sat 9:30AM - 9:00PM | Sun 10:30AM - 5:00PM</div>
+
+    <header>
+        <div class="brand">
+            <h1>Novel Idea</h1>
+            <span>Fiction and Non-Fiction Since 1988</span>
+        </div>
+    </header>
+
+    <nav>
+        <div class="nav-container">
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="catalog.html">Catalog</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="community.html">Community</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Order / Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="container">
+        <section class="hero-section">
+            <div class="hero-content">
+                <h2>Welcome to Kingston's Independent Bookstore</h2>
+                <p>
+                    Located in the heart of downtown Kingston since 1988. We offer a curated selection of new releases, local history, and hidden gems.
+                </p>
+                <a href="catalog.html" class="btn">Browse Books</a>
+            </div>
+
+            <div class="hero-image">
+                <img src="images/store-hero.jpg" alt="Novel Idea Storefront with Daffodils">
+            </div>
+        </section>
+
+        <section class="grid-2-1">
+           <div class="card">
+                <h3>Staff Pick of the Month</h3>
+                <div style="display: flex; gap: 1rem; align-items: flex-start;">
+                    <div style="width: 100px; height: 150px; flex-shrink: 0; overflow: hidden; border-radius: 4px;">
+                        <img src="images/book-history.jpg" alt="Staff Pick" style="width: 100%; height: 100%; object-fit: cover;">
+                    </div>
+                    
+                    <div>
+                        <h4 class="mb-1" style="color: var(--secondary);">The Limestone City</h4>
+                        <p>A fascinating look into the history of our beautiful city. Perfect for locals and visitors alike.</p>
+                        <a href="contact.html" style="color: var(--primary); font-weight: bold;">Request Copy →</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card" style="background-color: #fcfcfc;">
+                <h3>Join Our Community</h3>
+                <p>Sign up for our newsletter to get updates on author signings and new arrivals.</p>
+                <form onsubmit="event.preventDefault();">
+                    <input type="email" placeholder="Your email address" class="mb-1">
+                    <button class="btn full-width">Subscribe</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-grid">
+            <div class="footer-col">
+                <h4>Novel Idea</h4>
+                <p>156 Princess Street<br>Kingston, ON K7L 1B1</p>
+                <p>Phone: 613-546-9799<br>Email: novid@kingston.net</p>
+            </div>
+            <div class="footer-col">
+                <h4>Explore</h4>
+                <ul>
+                    <li><a href="catalog.html">New Arrivals</a></li>
+                    <li><a href="events.html">Events Calendar</a></li>
+                    <li><a href="about.html">Our Story</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Follow Us</h4>
+                <ul>
+                    <li>
+                        <a href="https://www.facebook.com/NovelIdeaBookstore" target="_blank" rel="noopener noreferrer">Facebook</a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/NovelIdeaYGK" target="_blank" rel="noopener noreferrer">Twitter</a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/NovelIdeaKingston" target="_blank" rel="noopener noreferrer">Instagram</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="copyright">
+            &copy; 2026 Novel Idea Bookstore. Redesign by Nishil Sailor (Student Project).
+        </div>
+    </footer>
+
+</body>
+</html>
